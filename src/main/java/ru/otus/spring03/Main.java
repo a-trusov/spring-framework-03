@@ -4,6 +4,7 @@ import org.springframework.context.annotation.*;
 import ru.otus.spring03.domain.Person;
 import ru.otus.spring03.service.PersonService;
 
+@EnableAspectJAutoProxy
 @Configuration
 @ComponentScan
 public class Main {
